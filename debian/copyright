@@ -1,22 +1,723 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: OpenSceneGraph
+Upstream-Contact: Robert Osfield <robert.osfield@gmail.com>
+Source: http://www.openscenegraph.org
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright: 1998-2018, Robert Osfield
+License: OSGPL
+Comment: The OpenSceneGraph Public License is based on the Lesser GNU
+ General Public License (LGPL) and includes the wxWidgets additions to
+ LGPL which provide a clear statement that distribution with proprietary
+ applications is accepted.
+
+Files: debian/*
+Copyright: 2019, Alberto Luaces Fernández <alberto.luaces@udc.es>
+License: GPL-2
+
+Files: src/osgUtil/tristripper/*
+       src/osg/dxtctool*
+       src/osgPlugins/zip/*
+Copyright: 2002-2004, Tanguy Fautré
+           2009, Neil Hughes
+License: zlib
+
+Files: src/osgPlugins/zip/ZipArchive.cpp
+Copyright: 1998-2006 Robert Osfield
+License: OSGPL
+
+Files: src/osgPlugins/osgjs/CompactBufferVisitor
+Copyright: Sketchfab
+License: Free_use
+
+Files: src/osgPlugins/ktx/*
+Copyright: 2012 APX Labs, LLC
+License: OSGPL
+
+Files: src/osgUtil/MeshOptimizers.cpp
+Copyright: 1998-2006 Robert Osfield
+           2010 Tim Moore
+License: OSGPL
+
+Files: src/osgUtil/PerlinNoise*
+       include/osgUtil/PerlinNoise
+Copyright: 2002 3Dlabs Inc. Ltd.
+License: Expat
+
+Files: src/osgPlugins/txp/*
+Copyright: 2002, Boris Bralo
+           2002, Terrain Experts Inc. (TERREX)
+License: OSGPL
+
+Files: src/OpenThreads/*
+Copyright: 1998-2018, The Open Thread Group
+License: OSGPL
+
+Files: src/osgAnimation/*
+       src/osgWrappers/deprecated-dotosg/osgAnimation/*
+       src/osgPlugins/osgjs/Animation*
+       src/osgPlugins/osgjs/Adaptor*
+       src/osgPlugins/osgjs/JSON_Objects*
+Copyright: 1998-2018, Robert Osfield
+           2008-2011, Cedric Pinson <cedric.pinson@plopbyte.net>
+           2017, Julien Valentin <mp3butcher@hotmail.com>
+License: OSGPL
+
+Files: src/osgWrappers/deprecated-dotosg/osg/OcclusionQueryNode.cpp
+Copyright: 2007, Skew Matrix Software LLC (http:www.skew-matrix.com)
+License: OSGPL
+
+Files: src/osgPlugins/ogr/ReaderWriterOGR.cpp
+Copyright: 2007, Cedric Pinson - mornifle@plopbyte.net
+License: OSGPL
+
+Files: src/osgPlugins/osgjs/Base64
+Copyright: 2002, Ryan Petrie (ryanpetrie@netscape.net)
+License: zlib
+
+Files: src/osgPlugins/RestHttpDevice/*
+Copyright: 2003-2011 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+           1998-2006, Robert Osfield
+License: BSL-1.0
+
+Files: src/osg/GLStaticLibrary.h
+       src/osg/StateAttribute.cpp
+       src/osg/GLStaticLibrary.cpp
+       src/osg/Program.cpp
+       src/osg/Uniform.cpp
+       src/osg/Shader.cpp
+       include/osgDB/PluginQuery
+       include/osg/Program
+       include/osg/Shader
+       include/osg/GL2Extensions
+       include/osg/Uniform
+       applications/osgarchive/osgarchive.cpp
+       applications/osgviewer/osgviewer.cpp
+       applications/osgfilecache/osgfilecache.cpp
+       examples/osgdatabaserevisions/osgdatabaserevisions.cpp
+       examples/osgscreencapture/osgscreencapture.cpp
+       examples/osgshadergen/osgshadergen.cpp
+       examples/osgatomiccounter/osgatomiccounter.cpp
+       examples/osguserstats/osguserstats.cpp
+Copyright: 2015, Robert Osfield
+License: Free_use
+
+Files: src/osgPlugins/cfg/*
+       src/osgPlugins/sdl/*
+       src/osgPlugins/md2/anorms.h
+       src/osgPresentation/*
+       include/osgPresentation/*
+       applications/present3D/*
+Copyright: 1998-2018, Robert Osfield
+           2001-2004, Don Burns
+License: GPL-2
+
+Files: src/osgPlugins/cfg/ConfigParser.h
+       src/osgPlugins/cfg/ConfigParser.cpp
+Copyright: 1984-2002, Free Software Foundation, Inc.
+License: GPL-2
+
+Files: src/osgPlugins/cfg/ReaderWriterCFG.cpp
+Copyright: 2007, Cedric Pinson
+License: Free_use
+
+Files: src/osgPlugins/cfg/FlexLexer.h
+Copyright: 2007, Cedric Pinson
+           1993, The Regents of the University of California
+License: BSD-ancient
+
+Files: src/osgPlugins/pov/*
+       src/osgPlugins/Inventor/*
+       examples/osgsimplegl3/*
+Copyright: n/a
+License: public-domain
+
+Files: src/osgPlugins/txf/*
+Copyright: 2006 Mathias Froehlich
+License: OSGPL
+
+Files: src/osgPlugins/dxf/*
+Copyright: 1998-2008 Robert Osfield
+           2005 GraphArchitecture ( grapharchitecture.com )
+           2004 by Paul de Repentigny <pdr@grapharchitecture.com>
+License: OSGPL
+
+Files: src/osgPlugins/dxf/DXFWriterNodeVisitor.h
+Copyright: 2001, Ulrich Hertlein <u.hertlein@web.de>
+License: OSGPL
+
+Files: src/osgPlugins/fbx/*
+Copyright: 2009 Thibault Caporal and Sukender (Benoit Neil - http://sukender.free.fr)
+License: OSGPL
+
+Files: src/osgPlugins/obj/*
+Copyright: 1998-2008 Robert Osfield
+           2001-2007 Ulrich Hertlein <u.hertlein@web.de>
+License: OSGPL
+
+Files: src/osgPlugins/gles/*
+Copyright: 2002 Cedric Pinson
+           2002 Sketchfab
+License: OSGPL
+
+Files: src/osgPlugins/ive/*
+Copyright: 1998-2008 Robert Osfield
+           2003 VR-C
+License: OSGPL
+
+Files: src/osgPlugins/hdr/*
+       src/osgPlugins/ply/*
+       src/osgPlugins/lwo/*
+       src/osgPlugins/3ds/*
+       src/osgPlugins/x/*
+       include/osgAnimation/Vec3Packed
+Copyright: 2004, Mekensleep
+           2007, Tobias Wolf <twolf@access.unizh.ch>
+           2005-2007, Stefan Eilemann
+           1994, The Board of Trustees of The Leland Stanford
+           2002, Pavel Moloshtan
+           2002-2004, Marco Jez <marco.jez@poste.it>
+           2002-2004, Marco Jez
+           1996-2008, Jan Eric Kyprianidis <www.kyprianidis.com>
+           2001-2006, Ulrich Hertlein <u.hertlein@sandbox.de>
+           2001-2002, Bruno 'Beosil' Heidelberger
+           2002-2018, Robert Osfield
+           1998-1999, Janne Löf <jlof@mail.student.oulu.fi>
+           2005-2007, Stefan Eilemann <eile@equalizergraphics.com>
+License: LGPL
+
+Files: src/osgPlugins/OpenFlight/*
+Copyright: 1998-2006 Robert Osfield
+           2008, Skew Matrix Software LLC.
+License: OSGPL
+
+Files: src/osgPlugins/OpenCASCADE/ReaderWriterOpenCASCADE.h
+Copyright: 2013, VizExperts India Pvt. Ltd.
+License: LGPL
+
+Files: src/osgPlugins/lws/*
+Copyright: 2004 Marco Jez <marco.jez@poste.it>
+           2004 Robert Osfield
+License: OSGPL
+
+Files: src/osgPlugins/md2/anorms.h
+Copyright: 1997-2001, Id Software, Inc.
+License: GPL-2
+
+Files: src/osgPlugins/CMakeLists.txt
+Copyright: 2005, Michael Wagner, mtw@shared-reality.com
+           2006-2007, Eric Wing, Luigi Calori and Robert Osfield
+License: OSGPL
+
+Files: src/osgPlugins/directshow/*
+Copyright: 2009, Tharsis Software
+License: OSGPL
+
+Files: src/osgPlugins/osc/*
+Copyright: 1998-2008, Robert Osfield
+License: OSGPL
+
+Files: src/osgPlugins/osc/osc/*
+       src/osgPlugins/osc/ip/*
+Copyright: 2004-2005, Ross Bencina <rossb@audiomulch.com>
+License: REQUEST_MODIFICATIONS
+
+Files: src/osgPlugins/quicktime/QTLive*
+       src/osgPlugins/quicktime/QuicktimeLive*
+Copyright: 1998-2008, Robert Osfield
+License: OSGPL
+
+Files: src/osgPlugins/quicktime/Movie*
+       src/osgPlugins/quicktime/QTImport*
+       src/osgPlugins/quicktime/QTUtils*
+       src/osgPlugins/quicktime/QuicktimeImage*
+Copyright: 2002-2004, Stephan Huber http://digitalmind.de
+License: GPL-2
+
+Files: src/osgViewer/DarwinUtils.*
+       src/osgViewer/*.mm
+Copyright: 2008, Stephan Maximilian Huber, digital mind.
+License: OSGPL
+
+Files: src/osgViewer/DarwinUtils.h
+Copyright: Copyright: 2008 Stephan Maximilian Huber, digital mind.
+License: OSGPL
+
+Files: src/osgPlugins/avfoundation/OSXAVFoundationVideo.h
+Copyright: 2012, stephanmaximilianhuber.com.
+License: OSGPL
+
+Files: src/osgPlugins/stl/ReaderWriterSTL.cpp
+Copyright: 2004 Ulrich Hertlein <u.hertlein@sandbox.de>
+           2012 Piotr Domagalski <piotr@domagalski.com>
+License: LGPL
+
+Files: src/osg/glu/*
+       src/osgViewer/Keystone.cpp
+       examples/*
+       examples/osgoscdevice/*
+       examples/osgfadetext/*
+       examples/osghud/*
+       examples/osgviewerSDL/*
+       examples/osgshape/*
+       examples/osgtext3D/*
+       examples/osgspacewarp/*
+       examples/osgkeystone/*
+       examples/osgprerender/*
+       examples/osgclip/*
+       examples/osgsimulation/*
+       examples/osgcubemap/*
+       examples/osgdepthpartition/*
+       examples/osgcatch/*
+       examples/osgcamera/*
+       examples/osgcluster/*
+       examples/osgpackeddepthstencil/*
+       examples/osgfxbrowser/*
+       examples/osgmultiviewpaging/*
+       examples/osgrobot/*
+       examples/osghangglide/*
+       examples/osglauncher/*
+       examples/osgstereoimage/*
+       examples/osgshaders/*
+       examples/osgbillboard/*
+       examples/osgspheresegment/*
+       examples/osgpoints/*
+       examples/osggameoflife/*
+       examples/osgprecipitation/*
+       examples/osgparticle/*
+       examples/osgmultitexture/*
+       examples/osgshadow/terrain_*
+       examples/osgpointsprite/*
+       examples/osgintersection/*
+       examples/osgoccluder/*
+       examples/osgthreadedterrain/*
+       examples/osgvertexattributes/*
+       examples/osgmultitexturecontrol/*
+       examples/osgblendequation/*
+       examples/osgreflect/*
+       examples/osgkeyboardmouse/*
+       examples/osgkdtree/*
+       examples/osglight/*
+       examples/osgsharedarray/*
+       examples/osgsidebyside/*
+       examples/osglogicop/*
+       examples/osgfpdepth/*
+       examples/osgmultitouch/*
+       examples/osggeometry/*
+       examples/osgmultiplerendertargets/*
+       examples/osgposter/*
+       examples/osgvolume/*
+       examples/osgimpostor/*
+       examples/osgscalarbar/*
+       examples/osgshadercomposition/*
+       examples/osggraphicscost/*
+       examples/osgmanipulator/*
+       examples/osgdistortion/*
+       examples/osgimagesequence/*
+       examples/osgparametric/*
+       examples/osganalysis/*
+       examples/osgpagedlod/*
+       examples/osgscribe/*
+       examples/osgcompositeviewer/*
+       examples/osgtexturerectangle/*
+       examples/osganimate/*
+       examples/osgmultiplemovies/*
+       examples/osgmotionblur/*
+       examples/osgcallback/*
+       examples/osgdrawinstanced/*
+       examples/osgoit/*
+       examples/osgtexturecompression/*
+       examples/osgteapot/*
+       examples/osgparticleshader/*
+       examples/osglogo/*
+       examples/osgsequence/*
+       examples/osgocclusionquery/*
+       examples/osgphotoalbum/*
+       examples/osgviewerCocoa/*
+       examples/osggpx/*
+       examples/osgtexture2D/*
+       examples/osguserdata/*
+       examples/osgprerendercubemap/*
+       examples/osgmovie/*
+       examples/osgcopy/*
+       examples/osgtexture3D/*
+       examples/osgcomputeshaders/*
+       examples/osgviewerFLTK/*
+       examples/osglightpoint/*
+       examples/osgtext/*
+       examples/osgparticleeffects/*
+       examples/osgkeyboard/*
+       examples/osgvertexprogram/*
+       examples/osgautotransform/*
+       examples/osgpick/*
+       examples/osgslice/*
+       examples/osgsimplifier/*
+       examples/osgunittests/*
+       examples/osgspotlight/*
+       examples/osgtexture1D/*
+       examples/osgterrain/*
+       examples/osgshaderterrain/*
+       examples/osgsimpleshaders/*
+       examples/osgwindows/*
+       examples/osgmemorytest/*
+       examples/osgtessellate/*
+       examples/osgforest/*
+       examples/osgstereomatch/*
+Copyright: 1998-2018, Robert Osfield
+License: Expat
+
+Files: examples/osganimationviewer/*
+Copyright: Jeremy Moles  <jeremy@emperorlinux.com>
+           Cedric Pinson <mornifle@plopbyte.net>
+License: GPL-2
+
+Files: src/osg/glu/*
+Copyright: 1991-2000 Silicon Graphics, Inc.
+License: SGI_FREE_SOFTWARE_LICENSE_B
+
+Files: examples/osgAndroidExampleGLES*/*
+Copyright: 2008, The Android Open Source Project
+License: Apache-2.0
+
+Files: src/osgPlugins/dae/*
+Copyright: 2006, Andrew Lorino and Mike Weiblen
+           2005-2006, Sony Computer Entertainment Inc.
+License: SCEA_Shared_Source_License-1.0
+
+Files: src/osgPlugins/dae/Read*
+Copyright: 1998-2006, Robert Osfield
+License: Free_use
+
+License: REQUEST_MODIFICATIONS
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
  .
- This package is distributed in the hope that it will be useful,
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ Any person wishing to distribute modifications to the Software is
+ requested to send the modifications to the original developer so that
+ they can be incorporated into the canonical version.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+License: SGI_FREE_SOFTWARE_LICENSE_B
+ SGI FREE SOFTWARE LICENSE B (Version 2.0, Sept. 18, 2008)
+ Copyright (C) 1991-2000 Silicon Graphics, Inc. All Rights Reserved.
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice including the dates of first publication and
+ either this permission notice or a reference to
+ http://oss.sgi.com/projects/FreeB/
+ shall be included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+ OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ .
+ Except as contained in this notice, the name of Silicon Graphics, Inc.
+ shall not be used in advertising or otherwise to promote the sale, use or
+ other dealings in this Software without prior written authorization from
+ Silicon Graphics, Inc.
+
+
+License: Apache-2.0
+ Found in /usr/share/common-licenses/Apache-2.0
+
+License: BSD-ancient
+ Copyright (c) 1993 The Regents of the University of California.
+ All rights reserved.
+ .
+ This code is derived from software contributed to Berkeley by
+ Kent Williams and Tom Epperly.
+ .
+ Redistribution and use in source and binary forms with or without
+ modification are permitted provided that: (1) source distributions retain
+ this entire copyright notice and comment, and (2) distributions including
+ binaries display the following acknowledgement:  ``This product includes
+ software developed by the University of California, Berkeley and its
+ contributors'' in the documentation or other materials provided with the
+ distribution and in all advertising materials mentioning features or use
+ of this software.  Neither the name of the University nor the names of
+ its contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: BSL-1.0
+ Boost Software License - Version 1.0 - August 17th, 2003
+ .
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: Free_use
+ This application is open source and may be redistributed and/or modified
+ freely and without restriction, both in commercial and non commercial applications,
+ as long as this copyright notice is maintained.
+ .
+ This application is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+License: GPL-2
+ Found in /usr/share/common-licenses/GPL-2
+
+License: LGPL
+ Found in /usr/share/common-licenses/LGPL
+
+License: OSGPL
+               OpenSceneGraph Public License, Version 0.0
+               ==========================================
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ Copyright (C) 2002 Robert Osfield.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Everyone is permitted to copy and distribute verbatim copies
+ of this licence document, but changing it is not allowed.
+ .
+                      OPENSCENEGRAPH PUBLIC LICENCE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the OpenSceneGraph Public License (OSGPL) version 0.0
+ or later.
+ .
+ Notes: the OSGPL is based on the LGPL, with the 4 exceptions laid
+ out in the wxWindows section below.  The LGPL is contained in the
+ final section of this license.
+ .
+ .
+ -----------------------------------------------------------------------------
+ .
+               wxWindows Library Licence, Version 3
+               ====================================
+ .
+ Copyright (C) 1998 Julian Smart, Robert Roebling [, ...]
+ .
+ Everyone is permitted to copy and distribute verbatim copies
+ of this licence document, but changing it is not allowed.
+ .
+                      WXWINDOWS LIBRARY LICENCE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public Licence as published by
+ the Free Software Foundation; either version 2 of the Licence, or (at
+ your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+ General Public Licence for more details.
+ .
+ You should have received a copy of the GNU Library General Public Licence
+ along with this software, usually in a file named COPYING.LIB.  If not,
+ write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ EXCEPTION NOTICE
+ .
+ 1. As a special exception, the copyright holders of this library give
+ permission for additional uses of the text contained in this release of
+ the library as licenced under the wxWindows Library Licence, applying
+ either version 3 of the Licence, or (at your option) any later version of
+ the Licence as published by the copyright holders of version 3 of the
+ Licence document.
+ .
+ 2. The exception is that you may use, copy, link, modify and distribute
+ under the user's own terms, binary object code versions of works based
+ on the Library.
+ .
+ 3. If you copy code from files distributed under the terms of the GNU
+ General Public Licence or the GNU Library General Public Licence into a
+ copy of this library, as this licence permits, the exception does not
+ apply to the code that you add in this way.  To avoid misleading anyone as
+ to the status of such modified files, you must delete this exception
+ notice from such code and/or adjust the licensing conditions notice
+ accordingly.
+ .
+ 4. If you write modifications of your own for this library, it is your
+ choice whether to permit this exception to apply to your modifications.
+ If you do not wish that, you must delete the exception notice from such
+ code and/or adjust the licensing conditions notice accordingly.
+ .
+ See also /usr/share/common-licenses/LGPL-2.1
+
+License: SCEA_Shared_Source_License-1.0
+ SCEA SHARED SOURCE LICENSE 1.0
+ .
+ TERMS AND CONDITIONS:
+ .
+ 1. DEFINITIONS:
+ .
+ "SOFTWARE" SHALL MEAN THE SOFTWARE AND RELATED DOCUMENTATION, WHETHER IN SOURCE OR OBJECT FORM, MADE AVAILABLE UNDER THIS SCEA SHARED SOURCE
+ LICENSE ("LICENSE"), THAT IS INDICATED BY A COPYRIGHT NOTICE FILE INCLUDED IN THE SOURCE FILES OR ATTACHED OR ACCOMPANYING THE SOURCE FILES.
+ .
+ "LICENSOR" SHALL MEAN SONY COMPUTER ENTERTAINMENT AMERICA, INC. (HEREIN "SCEA")
+ .
+ "OBJECT CODE" OR "OBJECT FORM" SHALL MEAN ANY FORM THAT RESULTS FROM TRANSLATION OR TRANSFORMATION OF SOURCE CODE, INCLUDING BUT NOT LIMITED
+ TO COMPILED OBJECT CODE OR CONVERSIONS TO OTHER FORMS INTENDED FOR MACHINE EXECUTION.
+ .
+ "SOURCE CODE" OR "SOURCE FORM" SHALL HAVE THE PLAIN MEANING GENERALLY ACCEPTED IN THE SOFTWARE INDUSTRY, INCLUDING BUT NOT LIMITED TO SOFTWARE
+ SOURCE CODE, DOCUMENTATION SOURCE, HEADER AND CONFIGURATION FILES.
+ .
+ "YOU" OR "YOUR" SHALL MEAN YOU AS AN INDIVIDUAL OR AS A COMPANY, OR WHICHEVER FORM UNDER WHICH YOU ARE EXERCISING RIGHTS UNDER THIS LICENSE.
+ .
+ 2. LICENSE GRANT.
+ .
+ LICENSOR HEREBY GRANTS TO YOU, FREE OF CHARGE SUBJECT TO THE TERMS AND CONDITIONS OF THIS LICENSE, AN IRREVOCABLE, NON-EXCLUSIVE, WORLDWIDE,
+ PERPETUAL, AND ROYALTY-FREE LICENSE TO USE, MODIFY, REPRODUCE, DISTRIBUTE, PUBLICLY PERFORM OR DISPLAY THE SOFTWARE IN OBJECT OR SOURCE FORM  .
+ .
+ 3. NO RIGHT TO FILE FOR PATENT.
+ .
+ IN EXCHANGE FOR THE RIGHTS THAT ARE GRANTED TO YOU FREE OF CHARGE UNDER THIS LICENSE, YOU AGREE THAT YOU WILL NOT FILE FOR ANY PATENT
+ APPLICATION, SEEK COPYRIGHT PROTECTION OR TAKE ANY OTHER ACTION THAT MIGHT OTHERWISE IMPAIR THE OWNERSHIP RIGHTS IN AND TO THE SOFTWARE THAT
+ MAY BELONG TO SCEA OR ANY OF THE OTHER CONTRIBUTORS/AUTHORS OF THE SOFTWARE.
+ .
+ 4. CONTRIBUTIONS.
+ .
+ SCEA WELCOMES CONTRIBUTIONS IN FORM OF MODIFICATIONS, OPTIMIZATIONS, TOOLS OR DOCUMENTATION DESIGNED TO IMPROVE OR EXPAND THE PERFORMANCE AND
+ SCOPE OF THE SOFTWARE (COLLECTIVELY "CONTRIBUTIONS"). PER THE TERMS OF THIS LICENSE YOU ARE FREE TO MODIFY THE SOFTWARE AND THOSE
+ MODIFICATIONS WOULD BELONG TO YOU. YOU MAY HOWEVER WISH TO DONATE YOUR CONTRIBUTIONS TO SCEA FOR CONSIDERATION FOR INCLUSION INTO THE
+ SOFTWARE. FOR THE AVOIDANCE OF DOUBT, IF YOU ELECT TO SEND YOUR CONTRIBUTIONS TO SCEA, YOU ARE DOING SO VOLUNTARILY AND ARE GIVING THE
+ CONTRIBUTIONS TO SCEA AND ITS PARENT COMPANY SONY COMPUTER ENTERTAINMENT, INC., FREE OF CHARGE, TO USE, MODIFY OR DISTRIBUTE IN ANY FORM OR IN
+ ANY MANNER. SCEA ACKNOWLEDGES THAT IF YOU MAKE A DONATION OF YOUR CONTRIBUTIONS TO SCEA, SUCH CONTRIBUTIONS SHALL NOT EXCLUSIVELY BELONG TO
+ SCEA OR ITS PARENT COMPANY AND SUCH DONATION SHALL NOT BE TO YOUR EXCLUSION. SCEA, IN ITS SOLE DISCRETION, SHALL DETERMINE WHETHER OR NOT TO
+ INCLUDE YOUR DONATED CONTRIBUTIONS INTO THE SOFTWARE, IN WHOLE, IN PART, OR AS MODIFIED BY SCEA. SHOULD SCEA ELECT TO INCLUDE ANY SUCH
+ CONTRIBUTIONS INTO THE SOFTWARE, IT SHALL DO SO AT ITS OWN RISK AND MAY ELECT TO GIVE CREDIT OR SPECIAL THANKS TO ANY SUCH CONTRIBUTORS IN THE
+ ATTACHED COPYRIGHT NOTICE. HOWEVER, IF ANY OF YOUR CONTRIBUTIONS ARE INCLUDED INTO THE SOFTWARE, THEY WILL BECOME PART OF THE SOFTWARE AND
+ WILL BE DISTRIBUTED UNDER THE TERMS AND CONDITIONS OF THIS LICENSE. FURTHER, IF YOUR DONATED CONTRIBUTIONS ARE INTEGRATED INTO THE SOFTWARE
+ THEN SONY COMPUTER ENTERTAINMENT, INC. SHALL BECOME THE COPYRIGHT OWNER OF THE SOFTWARE NOW CONTAINING YOUR CONTRIBUTIONS AND SCEA WOULD BE
+ THE LICENSOR.
+ .
+ 5. REDISTRIBUTION IN SOURCE FORM
+ .
+ YOU MAY REDISTRIBUTE COPIES OF THE SOFTWARE, MODIFICATIONS OR DERIVATIVES THEREOF IN SOURCE CODE FORM, PROVIDED THAT YOU:
+ .
+ A. INCLUDE A COPY OF THIS LICENSE AND ANY COPYRIGHT NOTICES WITH SOURCE
+ .
+ B. IDENTIFY MODIFICATIONS IF ANY WERE MADE TO THE SOFTWARE
+ .
+ C. INCLUDE A COPY OF ALL DOCUMENTATION ACCOMPANYING THE SOFTWARE AND MODIFICATIONS MADE BY YOU
+ .
+ 6. REDISTRIBUTION IN OBJECT FORM
+ .
+ IF YOU REDISTRIBUTE COPIES OF THE SOFTWARE, MODIFICATIONS OR DERIVATIVES THEREOF IN OBJECT FORM ONLY (AS INCORPORATED INTO FINISHED GOODS,
+ I.E. END USER APPLICATIONS) THEN YOU WILL NOT HAVE A DUTY TO INCLUDE ANY COPIES OF THE CODE, THIS LICENSE, COPYRIGHT NOTICES, OTHER
+ ATTRIBUTIONS OR DOCUMENTATION.
+ .
+ 7. NO WARRANTY
+ .
+ THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT ANY REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING,
+ WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY
+ RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING, MODIFYING OR REDISTRIBUTING THE SOFTWARE AND ASSUME ANY RISKS ASSOCIATED WITH YOUR
+ EXERCISE OF PERMISSIONS UNDER THIS LICENSE.
+ .
+ 8. LIMITATION OF LIABILITY
+ .
+ UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY WILL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT,
+ CONSEQUENTIAL, SPECIAL, INCIDENTAL, OR EXEMPLARY DAMAGES WITH RESPECT TO ANY INJURY, LOSS, OR DAMAGE, ARISING UNDER OR IN CONNECTION WITH THIS
+ LETTER AGREEMENT, WHETHER FORESEEABLE OR UNFORESEEABLE, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH INJURY, LOSS, OR
+ DAMAGE. THE LIMITATIONS OF LIABILITY SET FORTH IN THIS SECTION SHALL APPLY TO THE FULLEST EXTENT PERMISSIBLE AT LAW OR ANY GOVERMENTAL
+ REGULATIONS.
+ .
+ 9. GOVERNING LAW AND CONSENT TO JURISDICTION
+ .
+ THIS AGREEMENT SHALL BE GOVERNED BY AND INTERPRETED IN ACCORDANCE WITH THE LAWS OF THE STATE OF CALIFORNIA, EXCLUDING THAT BODY OF LAW RELATED
+ TO CHOICE OF LAWS, AND OF THE UNITED STATES OF AMERICA. ANY ACTION OR PROCEEDING BROUGHT TO ENFORCE THE TERMS OF THIS AGREEMENT OR TO
+ ADJUDICATE ANY DISPUTE ARISING HEREUNDER SHALL BE BROUGHT IN THE SUPERIOR COURT OF THE COUNTY OF SAN MATEO, STATE OF CALIFORNIA OR THE UNITED
+ STATES DISTRICT COURT FOR THE NORTHERN DISTRICT OF CALIFORNIA. EACH OF THE PARTIES HEREBY SUBMITS ITSELF TO THE EXCLUSIVE JURISDICTION AND
+ VENUE OF SUCH COURTS FOR PURPOSES OF ANY SUCH ACTION. IN ADDITION, EACH PARTY HEREBY WAIVES THE RIGHT TO A JURY TRIAL IN ANY ACTION OR
+ PROCEEDING RELATED TO THIS AGREEMENT.
+ .
+ 10. COPYRIGHT NOTICE FOR REDISTRIBUTION OF SOURCE CODE
+ .
+ COPYRIGHT 2005 SONY COMPUTER ENTERTAINMENT INC.
+ .
+ LICENSED UNDER THE SCEA SHARED SOURCE LICENSE, VERSION 1.0 (THE "LICENSE"); YOU MAY NOT USE THIS FILE EXCEPT IN COMPLIANCE WITH THE LICENSE.
+ YOU MAY OBTAIN A COPY OF THE LICENSE AT:
+ .
+ HTTP://RESEARCH.SCEA.COM/SCEA_SHARED_SOURCE_LICENSE.HTML
+ .
+ UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, SOFTWARE DISTRIBUTED UNDER THE LICENSE IS DISTRIBUTED ON AN "AS IS" BASIS, WITHOUT
+ WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED. SEE THE LICENSE FOR THE SPECIFIC LANGUAGE GOVERNING PERMISSIONS AND
+ LIMITATIONS UNDER THE LICENSE.
+
+License: public-domain
+ The authors allow any kind of use, modification or distribution of
+ the code.
+
+License: zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
