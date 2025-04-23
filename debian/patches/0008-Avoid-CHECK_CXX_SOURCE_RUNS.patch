@@ -1,0 +1,38 @@
+From: Helmut Grohne <helmut@subdivi.de>
+Date: Sun, 27 Oct 2024 20:33:01 UTC
+Subject: Avoid CHECK_CXX_SOURCE_RUNS.
+
+---
+ CMakeModules/FindPoppler-glib.cmake | 15 ++-------------
+ 1 file changed, 2 insertions(+), 13 deletions(-)
+
+diff --git a/CMakeModules/FindPoppler-glib.cmake b/CMakeModules/FindPoppler-glib.cmake
+index d89a186..9e35e40 100644
+--- a/CMakeModules/FindPoppler-glib.cmake
++++ b/CMakeModules/FindPoppler-glib.cmake
+@@ -10,23 +10,12 @@ IF(PKG_CONFIG_FOUND)
+ 
+     IF (POPPLER_FOUND)
+ 
+-        INCLUDE(CheckCXXSourceRuns)
++        INCLUDE(CheckSymbolExists)
+ 
+         SET(CMAKE_REQUIRED_INCLUDES ${POPPLER_INCLUDE_DIRS})
+ 
+         # Do step by step checking,
+-        CHECK_CXX_SOURCE_RUNS("
+-        #include <cstdlib>
+-        #include <poppler.h>
+-        int main()
+-        {
+-        #ifdef POPPLER_HAS_CAIRO
+-           return EXIT_SUCCESS;
+-        #else
+-           return EXIT_FAILURE
+-        #endif
+-        }
+-        " POPPLER_HAS_CAIRO)
++        CHECK_SYMBOL_EXISTS(POPPLER_HAS_CAIRO "poppler.h" POPPLER_HAS_CAIRO)
+ 
+         IF (NOT POPPLER_HAS_CAIRO)
+             SET(POPPLER_FOUND FALSE)

@@ -1,0 +1,11 @@
+Rules:
+  rules:
+    -
+      Glob: src/osgPlugins/txp/*
+      Copyright:
+        - 2002, Boris Bralo
+        - Terrain Experts Inc (TERREX)
+      License: OSGPL
+    -
+      Glob: src/osgPlugins/quicktime/Movie* src/osgPlugins/quicktime/QTImport* src/osgPlugins/quicktime/QTUtils* src/osgPlugins/quicktime/QuicktimeImage*
+      Copyright: 2002-2004, Stephan Huber http://digitalmind.de
