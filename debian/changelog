@@ -1,8 +1,8 @@
-openscenegraph (3.6.5+dfsg1-9deepin0+rb1) unstable; urgency=medium
+openscenegraph (3.6.5+dfsg1-9deepin1) unstable; urgency=medium
 
-  * Rebuild
+  * Add wayland support.
 
- -- Cryolitia <cryolitia@deepin.org>  Thu, 12 Jun 2025 11:25:15 +0800
+ -- xiangzelong <xiangzelong@deepin.org>  Thu, 07 Aug 2025 09:43:02 +0800
 
 openscenegraph (3.6.5+dfsg1-9) unstable; urgency=medium
 
