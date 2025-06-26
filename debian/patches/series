@@ -1,8 +1,8 @@
-disable-zip-plugin-with-embedded-zlib.patch
+0001-disable-zip-plugin-with-embedded-zlib.patch
 0002-Spelling-fixes.patch
 0003-Explicitly-declare-copy-constructor-and-operators.patch
-tga_fix.patch
-prevent_immutability.patch
+0004-tga_fix.patch
+0005-prevent_immutability.patch
 0006-More-spelling-fixes.patch
 0007_ffmpeg5.0.patch
 0008-Avoid-CHECK_CXX_SOURCE_RUNS.patch
