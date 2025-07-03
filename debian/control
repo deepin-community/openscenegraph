@@ -23,7 +23,13 @@ Build-Depends: debhelper-compat (= 12),
                libpoppler-glib-dev,
                liblua5.4-dev,
                libcollada-dom-dev,
-               libboost-filesystem-dev
+               libboost-filesystem-dev,
+               pkg-config,
+               libwayland-dev,
+               wayland-protocols,
+               libwayland-egl-backend-dev,
+               eglexternalplatform-dev,
+               libxkbcommon-dev
 Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/openscenegraph-team/openscenegraph-3.2
 Vcs-Git: https://salsa.debian.org/openscenegraph-team/openscenegraph-3.2.git
