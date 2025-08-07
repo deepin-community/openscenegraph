@@ -1,3 +1,9 @@
+openscenegraph (3.6.5+dfsg1-9deepin2) unstable; urgency=medium
+
+  * Add wayland support.
+
+ -- qaqland <anguoli@uniontech.com>  Thu, 07 Aug 2025 16:52:35 +0800
+
 openscenegraph (3.6.5+dfsg1-9deepin1) unstable; urgency=medium
 
   * Bump version, avoid +rb suffix

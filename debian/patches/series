@@ -7,3 +7,4 @@ prevent_immutability.patch
 0007_ffmpeg5.0.patch
 0008-Avoid-CHECK_CXX_SOURCE_RUNS.patch
 0009-Find-any-Lua-version.patch
+0010-wayland-graphics-support.patch
